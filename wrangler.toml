@@ -1,7 +1,8 @@
 name = "giluo" # cloudflare的worker名称，也就是test-blog
 main = "build/worker/shim.mjs"
 compatibility_date = "2023-03-22"
-routes = [{ pattern = "giluo.workers.dev/*", zone_id = "f620716bf566c074707bb18237dfe673" }] #博客子域名
+#博客子域名  zone_id：区域ID
+routes = [{ pattern = "blog.giluo.cn/*", zone_id = "f620716bf566c074707bb18237dfe673" }] 
 usage_model = "bundled"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
