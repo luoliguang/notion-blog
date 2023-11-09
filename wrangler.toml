@@ -9,7 +9,7 @@ command = "cargo install -q worker-build && worker-build --release"
 [vars]
 MY_DOMAIN = "blog.giluo.cn" 
 NOTION_DOMAIN = "giluo.notion.site" #分享出来的notion子域名
-PAGE_MAP = '{"/":"0987600656074c92bc737459184d72cc", "/sport":"64a985dce67e4a97a27e93d9c4918682","/useful":"84ea47de57b54f96af98022c1b6f3c0f","/ps":"PS-ff93333c3c274b7bbae516776c55eb9f","life":"Life-record-518db9100b0e498e807d2fcdb43dc6bd"}'
+PAGE_MAP = '{"/":"0987600656074c92bc737459184d72cc", "/sport":"64a985dce67e4a97a27e93d9c4918682","/useful":"84ea47de57b54f96af98022c1b6f3c0f","/ps":"PS-ff93333c3c274b7bbae516776c55eb9f","/life":"Life-record-518db9100b0e498e807d2fcdb43dc6bd"}'
 # 评论区
 COMMENT_MAP = '{"data-repo":"luoliguang/notion-blog","data-repo-id":"R_kgDOKhFBDQ","data-category-id":"DIC_kwDOKhFBDc4CaMdn","data-mapping":"title","data-input-position":"bottom","data-theme":"preferred_color_scheme","data-lang":"zh-CN"}'
 PAGE_TITLE = "罗洋洋的知识库" # 博客标题
